@@ -594,3 +594,193 @@ const chartReport = async (selectorId) => {
         chartData(data);
     })
 }
+/**
+ * Function For Today's Activities
+ * @returns {Promise<void>}
+ */
+ const worldwidrWithPieChart = async () => {
+    const data = await getData(BASE_URL + 'v2/all');
+    const deathRate = (data.deaths * 100) / data.cases;
+    const recoveredRate = (data.recovered * 100) / data.cases;
+    const activeCasesRate = (data.active * 100) / data.cases;
+    const percents = [{
+            title: "Active Cases Rate",
+            value: activeCasesRate
+        },
+        {
+            title: "Recovered Rate",
+            value: recoveredRate
+        },
+        {
+            title: "Deaths Rate",
+            value: deathRate
+        }
+    ];
+    const charts = document.querySelectorAll('.chart');
+    charts.forEach((elem, indx) => {
+        elem.title = percents[indx].title;
+        elem.dataset.percent = percents[indx].value;
+        jQuery(elem).easyPieChart({
+            scaleColor: false,
+            lineWidth: 25
+        });
+    })
+}
+
+/**
+ * Function for mapStatus Report
+ * @param {*} selectorID 
+ */
+
+const mapStatus = async function (selectorID) {
+    const countriesData = await getData(BASE_URL + 'v2/countries');
+    const map = selectorID.querySelector('#map-status');
+    const mostCases = "#006491";
+    const mediumCases = "#4A97B9";
+    const minCases = "#ACCDDC";
+    const mapColors = {};
+
+    countriesData.map(async (country) => {
+        if (country.countryInfo.iso2) {
+            const countryCode = country.countryInfo.iso2.toLowerCase();
+            if (country.cases >= 0 && country.cases <= 50000) {
+                mapColors[countryCode] = minCases;
+            } else if (country.cases > 50000 && country.cases <= 100000) {
+                mapColors[countryCode] = mediumCases;
+            } else if (country.cases > 100000) {
+                mapColors[countryCode] = mostCases;
+            }
+        }
+    })
+
+    jQuery(map).vectorMap({
+        map: 'world_en',
+        backgroundColor: null,
+        borderColor: '#fff',
+        borderOpacity: 0.1,
+        borderWidth: 1,
+        enableZoom: false,
+        hoverColor: null,
+        hoverOpacity: null,
+        normalizeFunction: 'linear',
+        scaleColors: ['#b6d6ff', '#005ace'],
+        selectedColor: null,
+        selectedRegions: null,
+        showTooltip: true,
+        colors: mapColors,
+        onLabelShow: async function (event, label, code) {
+            const cdata = await getData(BASE_URL + `v2/countries/${code}`);
+            const ddd = `${cdata.country}: ${cdata.cases}`;
+            if (label.length) {
+                label[0].innerText = ddd;
+            } else {
+                event.preventDefault();
+            }
+        },
+    });
+}
+
+
+/**
+ * Function for Monthly Chart
+ * @param {*} canvas 
+ * @param {*} data 
+ */
+
+const monthlyChart = (canvas, data) => {
+
+    function chunkSum(arr, len) {
+        let chunks = [];
+        let i = 0;
+        let n = arr.length;
+
+        let chunk;
+
+        while (i < n) {
+            chunk = arr.slice(i, i += len);
+            chunks.push(
+                chunk.reduce((s, n) => s + n)
+            );
+        }
+
+        return chunks;
+    };
+
+    const chartData = chunkSum(data, 30);
+    const chartLabel = [];
+    chartData.map((item, indx) => chartLabel.push(indx + 1 + ' month'));
+
+    const config = {
+        type: 'line',
+        data: {
+            labels: chartLabel,
+            datasets: [{
+                label: '',
+                backgroundColor: '#EFF3F8',
+                borderColor: '#BAD5FF',
+                borderWidth: '2',
+                data: chartData,
+                fill: false,
+                pointBackgroundColor: '#BAD5FF',
+                pointBorderColor: '#BAD5FF',
+                pointBorderWidth: 5
+            }]
+        },
+        options: {
+            height: 250,
+            responsive: true,
+            legend: {
+                display: false
+            },
+            title: {
+                display: false
+            },
+            layout: {
+                padding: {
+                    left: 10,
+                    right: 0,
+                    top: 20,
+                    bottom: 10
+                }
+            },
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        color: "rgba(0, 0, 0, 0)",
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        color: "#DEDEDE",
+                    }
+                }]
+            }
+        }
+    };
+
+    const ctx = canvas.getContext('2d');
+    canvas.height = 250;
+    canvas.style.backgroundColor = "#fafefe";
+    window.myLine = new Chart(ctx, config);
+}
+
+
+const miniChart = async () => {
+    const data = await getData('https://api.covid19api.com/total/dayone/country/bd');
+    const activeCases = [];
+    const deaths = [];
+    const recovered = [];
+    data.map(item => activeCases.push(item.Active));
+    data.map(item => deaths.push(item.Deaths));
+    data.map(item => recovered.push(item.Recovered));
+
+    const active_cases_chart = document.getElementById('active_cases_chart');
+    active_cases_chart && monthlyChart(active_cases_chart, activeCases);
+
+
+    const deaths_chart = document.getElementById('deaths_chart');
+    deaths_chart && monthlyChart(deaths_chart, deaths);
+
+    const recovered_chart = document.getElementById('recovered_chart');
+    recovered_chart && monthlyChart(recovered_chart, recovered);
+}
