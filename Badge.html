@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jibanu - Coronavirus Stats Dashboard Template</title>
+
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+
+    <!--== Google Fonts ==-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!-- build:css assets/css/app.min.css -->
+    <!--== jqvmap Min CSS ==-->
+    <link href="assets/css/jqvmap.min.css" rel="stylesheet" />
+    <!--== ChartJS Min CSS ==-->
+    <link href="assets/css/chart.min.css" rel="stylesheet" />
+    <!--== DataTables Min CSS ==-->
+    <link href="assets/css/datatables.min.css" rel="stylesheet" />
+    <!--== Select2 Min CSS ==-->
+    <link href="assets/css/select2.min.css" rel="stylesheet" />
+    <!--== Bootstrap Min CSS ==-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--== Main Style CSS ==-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- endbuild -->
+
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--== Start Header Wrapper ==-->
+    <header class="header-wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-4">
+                    <div class="logo-wrap">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="logo" /></a>
+                    </div>  
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="last-update-wrap">
+                        <p class="mb-0">Update: <span class="last-update"></span></p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="navbar-wrap">
+                        <nav class="menubar">
+                            <ul class="nav">
+                                <li><a href="index.html">Dashboard</a></li>
+                                <li><a href="map.html">Map</a></li>
+                                <li><a href="badge.html">Badge</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--== End Header Wrapper ==-->
+
+    <!--== Start Main Content Wrapper ==-->
+    <main class="main-content-wrapper">
+        <div class="badge-tracker-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 m-auto">
+                        <div class="badge-tracker-item">
+                            <div class="title-top">
+                                <h2>Headline Badge Style</h2>
+                            </div>
+    
+                            <div class="badge-content-wrapper">
+                                <!-- Badge Item 01 -->
+                                <div class="badge-item worldwide-stats">
+                                    <div class="badge-item__title">
+                                        <p>COVID-19 Global Update</p>
+                                    </div>
+                                    <div class="badge-item__body">
+                                        <div class="badge-item__block">
+                                            <p>Active cases: <span class="infected">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Deaths: <span class="deaths">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Recovered: <span class="recovered">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>New: <span class="today_infected">00,000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Badge Item 01 -->
+    
+                                <!-- Badge Item 02 -->
+                                <div class="badge-item worldwide-stats">
+                                    <div class="badge-item__title badge-item__title--2">
+                                        <p>COVID-19 Global Update</p>
+                                    </div>
+                                    <div class="badge-item__body">
+                                        <div class="badge-item__block">
+                                            <p>Active cases: <span class="infected">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Deaths: <span class="deaths">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Recovered: <span class="recovered">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>New: <span class="today_infected">00,000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Badge Item 02 -->
+    
+                                <!-- Badge Item 03 -->
+                                <div class="badge-item badge-bg-yellow worldwide-stats">
+                                    <div class="badge-item__title badge-title-bg-black">
+                                        <p>COVID-19 Global Update</p>
+                                    </div>
+                                    <div class="badge-item__body">
+                                        <div class="badge-item__block">
+                                            <p>Active cases: <span class="infected">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Deaths: <span class="deaths">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Recovered: <span class="recovered">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>New: <span class="today_infected">00,000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Badge Item 03 -->
+    
+                                <!-- Badge Item 04 -->
+                                <div class="badge-item badge-bg-green worldwide-stats">
+                                    <div class="badge-item__title badge-title-bg-turquoise">
+                                        <p>COVID-19 Global Update</p>
+                                    </div>
+                                    <div class="badge-item__body">
+                                        <div class="badge-item__block">
+                                            <p>Active cases: <span class="infected">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Deaths: <span class="deaths">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Recovered: <span class="recovered">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>New: <span class="today_infected">00,000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Badge Item 04 -->
+    
+                                <!-- Badge Item 05 -->
+                                <div class="badge-item badge-bg-yellow worldwide-stats">
+                                    <div class="badge-item__title badge-item__title--3 badge-title-bg-black">
+                                        <p>COVID-19 Global Update</p>
+                                    </div>
+                                    <div class="badge-item__body">
+                                        <div class="badge-item__block">
+                                            <p>Active cases: <span class="infected">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Deaths: <span class="deaths">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>Recovered: <span class="recovered">00,000</span></p>
+                                        </div>
+                                        <div class="badge-item__block">
+                                            <p>New: <span class="today_infected">00,000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Badge Item 05 -->
+                            </div>
+                        </div>
+
+                        <div class="badge-tracker-item">
+                            <div class="title-top">
+                                <h2>Headline Round Style</h2>
+                            </div>
+    
+                            <div class="headline-round-content mtn-25 worldwide-stats">
+                                <div class="row ">
+                                    <div class="col-lg-6">
+                                        <div class="tracker-block tracker-block--5">
+                                            <div class="track-item">
+                                                <p class="track-item__title">Total Cases</p>
+                                                <h4 class="track-item__no infected">0,000,000</h4>
+                                                <h6 class="track-item__new">New: +<span class="today_infected">00</span></h6>
+                                            </div>
+                                            <div class="track-item">
+                                                <p class="track-item__title">Total Deaths</p>
+                                                <h4 class="track-item__no deaths">0,000,000</h4>
+                                                <h6 class="track-item__new">New: +<span class="today_deaths">00</span></h6>
+                                            </div>
+                                            <div class="track-item">
+                                                <p class="track-item__title">Total Recovered</p>
+                                                <h4 class="track-item__no recovered">0,000,000</h4>
+                                                <h6 class="track-item__new">New: +<span class="today_recovered">00</span></h6>
+                                            </div>
+                                            <div class="track-item">
+                                                <p class="track-item__title">Active Cases</p>
+                                                <h4 class="track-item__no current_cases">0,000,000</h4>
+                                                <h6 class="track-item__new">New: +<span class="today_active_cases">00</span></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="col-lg-6">
+                                        <div class="tracker-block tracker-block--5 bg-yellow">
+                                            <div class="track-item">
+                                                <p class="track-item__title">Total Cases</p>
+                                                <h4 class="track-item__no infected">0,000,000</h4>
+                                                <h6 class="track-item__new">New: +<span class="today_infected">00</span></h6>
+                                            </div>
+                                            <div class="track-item">
+                                                <p class="track-item__title">Total Deaths</p>
+                                                <h4 class="track-item__no deaths">0,000,000</h4>
+                                                <h6 class="track-item__new">New: +<span class="today_deaths">00</span></h6>
+                                            </div>
+                                            <div class="track-item">
+                                                <p class="track-item__title">Total Recovered</p>
+                                                <h4 class="track-item__no recovered">0,000,000</h4>
+                                                <h6 class="track-item__new">New: +<span class="today_recovered">00</span></h6>
+                                            </div>
+                                            <div class="track-item">
+                                                <p class="track-item__title">Active Cases</p>
+                                                <h4 class="track-item__no current_cases">0,000,000</h4>
+                                                <h6 class="track-item__new">New: +<span class="today_active_cases">00</span></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="badge-tracker-item">
+                            <div class="title-top">
+                                <h2>Mini Chart</h2>
+                            </div>
+    
+                            <div class="mini-chart-content" id="country-report">
+                                <div class="tracker-block tracker-block--6">
+                                    <div class="tracker-block__body">
+                                        <div class="track-item">
+                                            <div class="track-item-report">
+                                                <p class="track-item__title track-item__title-active">Active Cases</p>
+                                                <h4 class="track-item__no current_cases">00,000,0</h4>
+                                            </div>
+                                            <div class="track-item-chart">
+                                                <canvas id="active_cases_chart"></canvas>
+                                            </div>
+                                        </div>
+            
+                                        <div class="track-item">
+                                            <div class="track-item-report">
+                                                <p class="track-item__title track-item__title-deaths">Deaths</p>
+                                                <h4 class="track-item__no deaths">00,000,0</h4>
+                                            </div>
+            
+                                            <div class="track-item-chart">
+                                                <canvas id="deaths_chart"></canvas>
+                                            </div>
+                                        </div>
+            
+                                        <div class="track-item">
+                                            <div class="track-item-report">
+                                                <p class="track-item__title track-item__title-recovered">Recovered</p>
+                                                <h4 class="track-item__no recovered">00,000,0</h4>
+                                            </div>
+            
+                                            <div class="track-item-chart">
+                                                <canvas id="recovered_chart"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--== End Main Content Wrapper ==-->
+
+    
+    <!--=======================Javascript============================-->
+    <!-- build:js assets/js/app.min.js -->
+    <!--=== Modernizr Min Js ===-->
+    <script src="assets/js/modernizr.min.js"></script>
+    <!--=== jQuery Min Js ===-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--=== jQuery Migration Min Js ===-->
+    <script src="assets/js/jquery-migrate.min.js"></script>
+    <!--=== Popper Min Js ===-->
+    <script src="assets/js/popper.min.js"></script>
+    <!--=== Bootstrap Min Js ===-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--=== Select2 Min Js ===-->
+    <script src="assets/js/select2.full.min.js"></script>
+    <!--=== Data Table Min Js ===-->
+    <script src="assets/js/datatables.min.js"></script>
+    <!--=== ChartJS Min Js ===-->
+    <script src="assets/js/chart.min.js"></script>
+    <!--=== jQuery Vector Map Min Js ===-->
+    <script src="assets/js/jquery.vmap.min.js"></script>
+    <!--=== jQuery Vector World Min Js ===-->
+    <script src="assets/js/jquery.vmap.world.js"></script>
+
+    <!--=== APP Js ===-->
+    <script src="assets/js/app.js"></script>
+    <!--=== Active Js ===-->
+    <script src="assets/js/active.js"></script>
+
+    <!-- endbuild -->
+</body>
+
+</html>
