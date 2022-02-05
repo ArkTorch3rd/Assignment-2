@@ -21,3 +21,7 @@ Covid-19
 5. Bootstrap
 6. API
 7. Lottie
+
+# API Link
+https://api.covid19api.com/total/dayone/country/bd
+https://corona.lmao.ninja/
