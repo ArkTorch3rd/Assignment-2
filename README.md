@@ -4,13 +4,14 @@
 Covid-19
 
 # Features
-1. A map showing the number of covid-19 cases in different countries
+1. A map and dashboard showing the number of covid-19 cases in different countries
 2. News which consists of all the news of covid-19
 3. Comparision of different diseases to covid-19
 4. Health advisory
 5. Minigame
 6. Information about different vaccines
 7. covid-19 past experiences
+8. faq
 
 
 # Technologies
@@ -23,5 +24,5 @@ Covid-19
 7. Lottie
 
 # API Link
-https://api.covid19api.com/total/dayone/country/bd
-https://corona.lmao.ninja/
+1. https://api.covid19api.com/total/dayone/country/bd
+2. https://corona.lmao.ninja/
