@@ -26,3 +26,7 @@ Covid-19
 # API Link
 1. https://api.covid19api.com/total/dayone/country/bd
 2. https://corona.lmao.ninja/
+
+# Reference Made
+1. https://www.covid.gov.sg/
+2. https://www.homage.sg/services/non-emergency-ambulance/
