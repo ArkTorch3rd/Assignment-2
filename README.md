@@ -30,3 +30,4 @@ Covid-19
 # Reference Made
 1. https://www.covid.gov.sg/
 2. https://www.homage.sg/services/non-emergency-ambulance/
+3. https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html
