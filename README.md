@@ -31,3 +31,4 @@ Covid-19
 1. https://www.covid.gov.sg/
 2. https://www.homage.sg/services/non-emergency-ambulance/
 3. https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html
+4. https://www.verywellhealth.com/common-covid-19-questions-4800068
