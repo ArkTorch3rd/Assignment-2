@@ -32,3 +32,4 @@ Covid-19
 2. https://www.homage.sg/services/non-emergency-ambulance/
 3. https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html
 4. https://www.verywellhealth.com/common-covid-19-questions-4800068
+5. https://www.bbc.com/future/article/20200323-coronavirus-will-hot-weather-kill-covid-19
