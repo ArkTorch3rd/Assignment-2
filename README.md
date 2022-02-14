@@ -5,13 +5,14 @@ Covid-19
 
 # Features
 1. A map and dashboard showing the number of covid-19 cases in different countries
-2. News which consists of all the news of covid-19
-3. Comparision of different diseases to covid-19
-4. Health advisory
+2. News section which consists of the news on covid-19
+3. Symptoms of Covid-19
+4. Prevention of Covid-19
 5. Minigame
 6. Information about different vaccines
-7. covid-19 past experiences
-8. faq
+7. faq
+8. Contact section for people to contact us
+
 
 
 # Technologies
