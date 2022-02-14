@@ -37,3 +37,5 @@ Covid-19
 7. https://www.todayonline.com/singapore/explainer-when-will-nasal-vaccines-covid-19-be-ready-and-does-it-matter-singapore-1814036
 8. https://www.seattletimes.com/seattle-news/health/coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-the-seattle-washington-state-and-the-world/
 9. https://www.foxnews.com/health/worlds-first-human-infection-study-for-covid-19
+10. https://www.who.int
+11. https://www.bing.com/images/search?view=detailV2&ccid=qMwy06WK&id=8D02C71D256724B395FE1E877A626A2B1B30BBB0&thid=OIP.qMwy06WKF_60d_-_UF7JxwHaE8&mediaurl=https%3a%2f%2fwww.unomaha.edu%2fnews%2f2020%2f03%2fimg%2fcovid-19-check.jpg&exph=800&expw=1200&q=COVID-19+Logo&simid=608024299675745741&FORM=IRPRST&ck=172EB2A1FFC652F407FC8BA287D489BD&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0
