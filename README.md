@@ -34,3 +34,6 @@ Covid-19
 4. https://www.verywellhealth.com/common-covid-19-questions-4800068
 5. https://www.bbc.com/future/article/20200323-coronavirus-will-hot-weather-kill-covid-19
 6. https://www.arkansasonline.com/news/2022/feb/13/around-world-covid-19-edicts-falling/
+7. https://www.todayonline.com/singapore/explainer-when-will-nasal-vaccines-covid-19-be-ready-and-does-it-matter-singapore-1814036
+8. https://www.seattletimes.com/seattle-news/health/coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-the-seattle-washington-state-and-the-world/
+9. https://www.foxnews.com/health/worlds-first-human-infection-study-for-covid-19
