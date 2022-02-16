@@ -420,7 +420,8 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
 
 .tracker-block--2 {
     display: block;
-    padding: 0 15px;
+    padding: 0px 15px;
+    
 }
 
 .tracker-block--3 {
@@ -1586,3 +1587,41 @@ only screen and (min-width: 768px) and (max-width: 991.98px) {
     font-size: 18px;
     margin-bottom: 25px;
 }
+a{
+    text-decoration:none;
+    display:inline-block;
+    padding:8px 16px;
+}
+a:hover{
+    background-color:#ddd;
+    color:black; 
+}
+
+.back{
+    background-color:f1f1f1;
+    color:white;
+    border-radius:10px;
+    margin-bottom:1%;
+}
+#Statistics{
+    margin-top:-2%;
+    margin-bottom:4%;
+    margin-left:42%;
+    font-size:60px;
+}
+nav{
+    margin-left:40.5%;
+    margin-bottom:4%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav li {
+    display: inline;
+    font-size:20px;
+  }
+  
