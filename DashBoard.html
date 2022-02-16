@@ -28,6 +28,9 @@
     <!--== Main Style CSS ==-->
     <link href="CSS/DashBoardandMapPage/style.css" rel="stylesheet" />
     <!-- endbuild -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Charm:wght@700&family=Chonburi&family=DM+Serif+Display&family=Lato:wght@100&family=Mohave&family=Montserrat:wght@300&family=Nunito:ital,wght@1,300&family=Open+Sans&family=Patua+One&family=Playball&family=Playfair+Display&family=Praise&family=Racing+Sans+One&family=Righteous&family=Roboto:wght@100&family=Signika&family=Ultra&display=swap" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -46,6 +49,7 @@
                 <li><a href="Map.html">Map</a></li>
             </ul>
         </nav>
+        <div class="line-1"></div>
         <div class="content-section-1">
             <div class="container">
                 <div class="row">
@@ -115,6 +119,7 @@
                             </div>
                         </div>
                     </div>
+                    
 
                     <div class="col-xl-6">
                         <div class="map-status-wrap" id="map-status-report">
@@ -132,61 +137,28 @@
                 </div>
             </div>
         </div>
-
-        
-
-        <div class="content-section-3">
+        <div class="content-section-2">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-9">
-                        <div class="corona-chart-stats report-item mt-0" id="chart-canvas">
-                            <div class="chart-status-top">
-                                <h3>Total Graph View</h3>
 
-                                <div class="country-select">
-                                    <select name="counry"></select>
-                                </div>
-                            </div>
-                            <div class="chart-wrap">
-                                <canvas id="chart-canvas" style="width: 100%; height: 100%"></canvas>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-lg-13">
+                        <div class="list-view table-responsive" id="list-view">
+                            <table class="list-view__table display table">
+                                <thead class="list-view__head">
+                                    <tr>
+                                        <th>Region</th>
+                                        <th>Total Cases</th>
+                                        <th>New Cases</th>
+                                        <th>Total Deaths</th>
+                                        <th>Deaths %</th>
+                                        <th>New Deaths</th>
+                                        <th>Total Recovered</th>
+                                        <th>Recovered %</th>
+                                        <th>Active Cases</th>
+                                    </tr>
+                                </thead>
 
-                   
-
-                    <div class="col-lg-6 col-xl-3">
-                        <div class="today-view report-item worldwide-stats">
-                            <h3>Today's View</h3>
-
-                            <div class="tracker-block tracker-block--3 text-center">
-                                <div class="tracker-block__top">
-                                    <h4>Coronavirus (COVID-19)</h4>
-                                    <p>Updated <span class="last-update"></span> minutes ago</p>
-                                    <h2 class="tracker-block__top-total-cases infected">00,000,0</h2>
-                                    <h6 class="new-no">+<span class="today_infected">0000</span> (24h)</h6>
-                                </div>
-
-                                <div class="tracker-block__bottom">
-                                    <div class="tracker-block__bottom-wrap">
-                                        <div class="tracker-block__bottom__item">
-                                            <h5 class="tracker-block__bottom__item-title title-deaths">Deaths</h5>
-                                            <h2 class="tracker-block__bottom__item-no deaths">00,000,0</h2>
-                                            <h6 class="new-no">+<span class="today_deaths">00,00</span> (24h)</h6>
-                                        </div>
-                                        <div class="tracker-block__bottom__item">
-                                            <h5 class="tracker-block__bottom__item-title title-active">Active Cases</h5>
-                                            <h2 class="tracker-block__bottom__item-no current_cases">00,000,0</h2>
-                                            <h6 class="new-no">+<span class="today_active_cases">00,00</span> (24h)</h6>
-                                        </div>
-                                    </div>
-                                    <div class="tracker-block__bottom__item recovered-item">
-                                        <h5 class="tracker-block__bottom__item-title title-recovered">Recovered</h5>
-                                        <h2 class="tracker-block__bottom__item-no recovered"></h2>
-                                        <h6 class="new-no">+<span class="today_recovered">00,00</span> (24h)</h6>
-                                    </div>
-                                </div>
-                            </div>
+                                <tbody class="list-view__body"></tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

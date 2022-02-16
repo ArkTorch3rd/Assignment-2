@@ -1608,20 +1608,29 @@ a:hover{
     margin-bottom:4%;
     margin-left:42%;
     font-size:60px;
+    font-family: 'DM Serif Display', serif;
 }
 nav{
     margin-left:40.5%;
-    margin-bottom:4%;
+    margin-bottom:2%;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
   }
   
 nav li {
     display: inline;
     font-size:20px;
   }
+.line-1{
+    border:0;
+    border-bottom:1px solid black;
+    width:73%;
+    margin-left:13.5%;
+    margin-bottom:4%;
+}
   
