@@ -1598,10 +1598,8 @@ a:hover{
 }
 
 .back{
-    background-color:f1f1f1;
-    color:white;
-    border-radius:10px;
-    margin-bottom:1%;
+    background-color:white;
+    color:black;
 }
 #Statistics{
     margin-top:-2%;
