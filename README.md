@@ -4,13 +4,13 @@
 Covid-19
 
 # Features
-1. A map and dashboard showing the number of covid-19 cases in different countries
-2. News section which consists of the news on covid-19
+1. A map and dashboard showing the number of covid-19 cases in different countries (API)
+2. Information on covid-19
 3. Symptoms of Covid-19
 4. Prevention of Covid-19
-5. Minigame
-6. Information about different vaccines
-7. faq
+5. Information about different vaccines
+6. faq
+7. Blog section which consists of the news on covid-19
 8. Contact section for people to contact us
 
 
@@ -25,8 +25,8 @@ Covid-19
 7. Lottie
 
 # API Link
-1. https://api.covid19api.com/total/dayone/country/bd
-2. https://corona.lmao.ninja/
+1. https://corona.lmao.ninja/
+2. https://api.covid19api.com/total/dayone/country/bd
 
 # Reference Made
 1. https://www.covid.gov.sg/
