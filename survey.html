@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>COVID-19 Prevention: Do you know?</title>
+    <title>Coronavirus Stats</title>
+
     <!--== Favicon ==-->
-    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
 
     <!--== Google Fonts ==-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
 
-    <!-- build:css assets/css/app.min.css -->
+     <!-- build:css assets/css/app.min.css -->
     <!--== jqvmap Min CSS ==-->
     <link href="assets/css/dashboardandmappage/jqvmap.min.css" rel="stylesheet" />
     <!--== ChartJS Min CSS ==-->
@@ -27,24 +28,66 @@
     <!--== Main Style CSS ==-->
     <link href="assets/css/dashboardandmappage/style.css" rel="stylesheet" />
     <!-- endbuild -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Charm:wght@700&family=Chonburi&family=DM+Serif+Display&family=Lato:wght@100&family=Mohave&family=Montserrat:wght@300&family=Nunito:ital,wght@1,300&family=Open+Sans&family=Patua+One&family=Playball&family=Playfair+Display&family=Praise&family=Racing+Sans+One&family=Righteous&family=Roboto:wght@100&family=Signika&family=Ultra&display=swap" rel="stylesheet">
 
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
     <main class="main-content-wrapper">
-        <h1 id="Statistics">Survey</h1>
+        <h1 id="Statistics">Statistics</h1>
+        <div class="col-md-6 col-lg-12">
+            <div class="last-update-wrap">
+                <p class="mb-0">Update: <span class="last-update"></span></p>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="DashBoard.html">DashBoard</a></li>
-                <li><a href="Map.html">Map</a></li>
+                <li><a href="dashboard.html">DashBoard</a></li>
+                <li><a href="map.html">Map</a></li>
                 <li><a href="survey.html">Survey</a></li>
             </ul>
         </nav>
+        <div class="line-1"></div>
         <!-- Find a way to put javascript for an animated trivia quiz regarding covid prevention measures -->
         <iframe src="https://survey.zohopublic.com/zs/q6CsWL" frameborder='0' style='height:700px;width:100%;' marginwidth='0' marginheight='0' scrolling='auto' allow='geolocation'></iframe>
     </main>
     <script>(function(w,d,s,u,f,m,n,o){o='https://survey.zohopublic.com';w[f]=w[f]||function(){(w[f].p=w[f].p||[]).push(arguments);};m=d.createElement(s),n=d.getElementsByTagName(s)[0];m.async=1;m.src=o+u;n.parentNode.insertBefore(m,n);zs_intercept(o,'q6CsWL',{"chosenPages":["/Assignment-2/game.html"],"position":2});})(window, document, 'script', '/api/v1/public/livesurveys/q6CsWL/popup/script', 'zs_intercept');</script>
+    <!--=======================Javascript============================-->
+    <!-- build:js assets/js/app.min.js -->
+    <!--=== Modernizr Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/modernizr.min.js"></script>
+    <!--=== jQuery Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/jquery.min.js"></script>
+    <!--=== jQuery Migration Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/jquery-migrate.min.js"></script>
+    <!--=== Popper Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/popper.min.js"></script>
+    <!--=== Bootstrap Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/bootstrap.min.js"></script>
+    <!--=== Select2 Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/select2.full.min.js"></script>
+    <!--=== Data Table Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/datatables.min.js"></script>
+    <!--=== ChartJS Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/chart.min.js"></script>
+    <!--=== jQuery Vector Map Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/jquery.vmap.min.js"></script>
+    <!--=== jQuery Vector World Min Js ===-->
+    <script src="assets/libraries/dashboardandmappage/jquery.vmap.world.js"></script>
+
+    <!--=== API Js ===-->
+    <script src="assets/javascript/dashboardandmappage/api.js"></script>
+    <!--=== Active Js ===-->
+    <script src="assets/javascript/dashboardandmappage/active.js"></script>
+
+    <!-- endbuild -->
 </body>
 
 </html>
