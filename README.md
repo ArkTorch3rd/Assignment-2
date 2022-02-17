@@ -1,7 +1,7 @@
 # Assignment-2
 
 # Project's Name
-Covid-19
+Educating public on covid-19
 
 # Features
 1. A map and dashboard showing the number of covid-19 cases in different countries (API)
