@@ -137,5 +137,7 @@ coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-t
 
 2. https://elements.envato.com/coronavirus-live-statistics-dashboard-template-FQFQB34
 
+
+
 # GitHub Page Link
 https://arktorch3rd.github.io/Assignment-2/index.html
