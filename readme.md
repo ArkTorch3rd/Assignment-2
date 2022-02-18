@@ -72,15 +72,15 @@ Since, this is a covid-19 website,We make use of a white theme to show that it i
 
 2. Symptoms
 
-    i. Go to the symptoms page
-    ii. When hover through one of the images, verify that a box of text will
+    i. Go to the symptoms page.
+    ii. When hover through one of the images, verify that a box of text will.
     subsequently appear.
 
 3. Vaccines 
 
     i. Go to the vaccines page.
-    ii. There will be a slider which will move to the next one automatically
-    iii. Try to click on the arrow button and verify that it also do move to the next box
+    ii. There will be a slider which will move to the next one automatically.
+    iii. Try to click on the arrow button and verify that it also do move to the next box.
 
 4. FAQ 
 
