@@ -1,7 +1,7 @@
 # Assignment-2
 
 # Project's Name
-Educating public on covid-19
+ALl About Covid-19 
 
 This website is a covid-19 website which will educate the public more on covid-19. The public will get to know much more about virus after browsing through the website
 
