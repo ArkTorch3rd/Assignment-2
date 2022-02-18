@@ -13,35 +13,35 @@ Since, this is a covid-19 website,We make use of a white theme to show that it i
 # Existing Features
 1. A map and dashboard showing the number of covid-19 cases in different countries (API)
 
-Allow the user to know the number of covid-19 cases, number of deaths caused by covid-19,number of recovered cases globally or in respective countries by interacting with the map or dashboard.
+    Allow the user to know the number of covid-19 cases, number of deaths caused by covid-19,number of recovered cases globally or in respective countries by interacting with the map or dashboard.
 
 2. Information on covid-19
 
-Allow the user to know a little bit more about what exactly is covid-19.
+    Allow the user to know a little bit more about what exactly is covid-19.
 
 3. Symptoms of Covid-19
 
-Educate the user on the possible symptoms when they are infected with covid-19.
+    Educate the user on the possible symptoms when they are infected with covid-19.
 
 4. Prevention of Covid-19
 
-Educate the user on the ways to prevent themselves from getting covid-19.
+    Educate the user on the ways to prevent themselves from getting covid-19.
 
 5. Information about different vaccines
 
-Educate the user on the different vaccines available and if it is suitable for them. 
+    Educate the user on the different vaccines available and if it is suitable for them. 
 
 6. faq
 
-Answers to some of the commonly asked questions by the general public.
+    Answers to some of the commonly asked questions by the general public.
 
 7. Blog section which consists of the news on covid-19
 
-Allowing the user to know the latest worldwide covid-19 news 
+    Allowing the user to know the latest worldwide covid-19 news 
 
 8. Survey
 
-To check on the user understanding and allows us to make improvements on our website
+    To check on the user understanding and allows us to make improvements on our website
 
 # Features Left To Implement
 
@@ -61,42 +61,42 @@ To check on the user understanding and allows us to make improvements on our web
 
 1. About Page
 
-i. Go to the about page.
-ii. There will be a slider which will moves to the next slide automatically
-iii. Try to click on the arrow button and verify that it also do move to the next slide
+    i. Go to the about page.
+    ii. There will be a slider which will moves to the next slide automatically
+    iii. Try to click on the arrow button and verify that it also do move to the next slide
 
 2. Symptoms
 
-i. Go to the symptoms page
-ii. When hover through one of the images, verify that a box of text will
-subsequently appear.
+    i. Go to the symptoms page
+    ii. When hover through one of the images, verify that a box of text will
+    subsequently appear.
 
 3. Vaccines 
 
-i. Go to the vaccines page.
-ii. There will be a slider which will move to the next one automatically
-iii. Try to click on the arrow button and verify that it also do move to the next box
+    i. Go to the vaccines page.
+    ii. There will be a slider which will move to the next one automatically
+    iii. Try to click on the arrow button and verify that it also do move to the next box
 
 4. FAQ 
 
-i. Go to the FAQ page.
-ii. When pressed on the box that contains the question, verify that the answer to the query will pop out.
-iii. Also verify that the slider will move to the next FAQ automatically
+    i. Go to the FAQ page.
+    ii. When pressed on the box that contains the question, verify that the answer to the query will pop out.
+    iii. Also verify that the slider will move to the next FAQ automatically
 
 
 5. DashBoard
 
-i. Press on the button view statistics in the homepage, it should bring you to this dashboard page
-ii. Try to click on any part of the map, verify that the country name and the total number of covid-19 cases will appear
-iii. Notice that at the bottom section, there is a table showing the total cases,new cases, etc/
-iv. Try to use the search button to search for the country you want to know the statistics of, verify that the statistics of the country will appear
+    i. Press on the button view statistics in the homepage, it should bring you to this dashboard page
+    ii. Try to click on any part of the map, verify that the country name and the total number of covid-19 cases will appear
+    iii. Notice that at the bottom section, there is a table showing the total cases,new cases, etc/
+    iv. Try to use the search button to search for the country you want to know the statistics of, verify that the statistics of the country will appear
 
 6. Map
 
-i. Go to the Map page
-ii. Try to select the country that you want using the selector. You may also type in the country name you want to know the statistics of
-iii. Verify that the total cases,deaths,new deaths and numbre of recovered cases for the selected country will appear.
-iv. Click anywhere on the map, verify that the countryname will be shown
+    i. Go to the Map page
+    ii. Try to select the country that you want using the selector. You may also type in the country name you want to know the statistics of
+    iii. Verify that the total cases,deaths,new deaths and numbre of recovered cases for the selected country will appear.
+    iv. Click anywhere on the map, verify that the countryname will be shown
 
 
 
@@ -109,12 +109,12 @@ iv. Click anywhere on the map, verify that the countryname will be shown
 
 # Reference Made (Content)
 1. https://www.who.int/health-topics/coronavirus#tab=tab_1
-2. https://www.homage.sg/services/non-emergency-ambulance/
+2. https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures
 3. https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html
 4. https://www.verywellhealth.com/common-covid-19-questions-4800068
 5. https://www.bbc.com/future/article/20200323-coronavirus-will-hot-weather-kill-covid-19
 coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-the-seattle-washington-state-and-the-world/
-6. https://www.foxnews.com/health/worlds-first-human-infection-study-for-covid-19
+6. https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures
 7. https://www.who.int
 8. https://www.cdc.gov/coronavirus/2019-ncov/vaccines
 9. https://www.channelnewsasia.com/watch/singapore-streamline-covid-19-and-border-rules-announces-new-vtl-hong-kong-video-2502346
@@ -122,7 +122,8 @@ coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-t
 11. https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures
 
 # Media
-1. https://www.bing.com/images/search?view=detailV2&ccid=qMwy06WK&id=8D02C71D256724B395FE1E877A626A2B1B30BBB0&thid=OIP.qMwy06WKF_60d_-_UF7JxwHaE8&mediaurl=https%3a%2f%2fwww.unomaha.edu%2fnews%2f2020%2f03%2fimg%2fcovid-19-check.jpg&exph=800&expw=1200&q=COVID-19+Logo&simid=608024299675745741&FORM=IRPRST&ck=172EB2A1FFC652F407FC8BA287D489BD&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0 
+1. https://www.bing.com/images/search?view=detailV2&ccid=qMwy06WK&id=8D02C71D256724B395FE1E877A626A2B1B30BBB0&thid=OIP.qMwy06WKF_60d_-_UF7JxwHaE8&mediaurl=https%3a%2f%2fwww.unomaha.edu%2fnews%2f2020%2f03%2fimg%2fcovid-19-check.jpg&exph=800&expw=1200&q=COVID-19+Logo&simid=608024299675745741&FORM=IRPRST&ck=172EB2A1FFC652F407FC8BA287D489BD&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0
+2. https://www.youtube.com/watch?time_continue=2&v=D9tTi-CDjDU&feature=emb_title
 
 
 # Website Template used
@@ -131,4 +132,5 @@ coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-t
 
 2. https://elements.envato.com/coronavirus-live-statistics-dashboard-template-FQFQB34
 
-
+# GitHub Page Link
+https://arktorch3rd.github.io/Assignment-2/index.html
