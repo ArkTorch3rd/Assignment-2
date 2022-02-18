@@ -66,42 +66,42 @@ Since, this is a covid-19 website,We make use of a white theme to show that it i
 
 1. About Page
 
-    i. Go to the about page.
-    ii. There will be a slider which will moves to the next slide automatically
-    iii. Try to click on the arrow button and verify that it also do move to the next slide
+    - i. Go to the about page.
+    - ii. There will be a slider which will moves to the next slide automatically
+    - iii. Try to click on the arrow button and verify that it also do move to the next slide
 
 2. Symptoms
 
-    i. Go to the symptoms page.
-    ii. When hover through one of the images, verify that a box of text will.
+    - i. Go to the symptoms page.
+    - ii. When hover through one of the images, verify that a box of text will.
     subsequently appear.
 
 3. Vaccines 
 
-    i. Go to the vaccines page.
-    ii. There will be a slider which will move to the next one automatically.
-    iii. Try to click on the arrow button and verify that it also do move to the next box.
+    - i. Go to the vaccines page.
+    - ii. There will be a slider which will move to the next one automatically.
+    - iii. Try to click on the arrow button and verify that it also do move to the next box.
 
 4. FAQ 
 
-    i. Go to the FAQ page.
-    ii. When pressed on the box that contains the question, verify that the answer to the query will pop out.
-    iii. Also verify that the slider will move to the next FAQ automatically
+    - i. Go to the FAQ page.
+    - ii. When pressed on the box that contains the question, verify that the answer to the query will pop out.
+    - iii. Also verify that the slider will move to the next FAQ automatically
 
 
 5. DashBoard
 
-    i. Press on the button view statistics in the homepage, it should bring you to this dashboard page
-    ii. Try to click on any part of the map, verify that the country name and the total number of covid-19 cases will appear
-    iii. Notice that at the bottom section, there is a table showing the total cases,new cases, etc/
-    iv. Try to use the search button to search for the country you want to know the statistics of, verify that the statistics of the country will appear
+    - i. Press on the button view statistics in the homepage, it should bring you to this dashboard page
+    - ii. Try to click on any part of the map, verify that the country name and the total number of covid-19 cases will appear
+    - iii. Notice that at the bottom section, there is a table showing the total cases,new cases, etc/
+    - iv. Try to use the search button to search for the country you want to know the statistics of, verify that the statistics of the country will appear
 
 6. Map
 
-    i. Go to the Map page
-    ii. Try to select the country that you want using the selector. You may also type in the country name you want to know the statistics of
-    iii. Verify that the total cases,deaths,new deaths and number of recovered cases for the selected country will appear.
-    iv. Click anywhere on the map, verify that the country name will be shown
+    - i. Go to the Map page
+    - ii. Try to select the country that you want using the selector. You may also type in the country name you want to know the statistics of
+    - iii. Verify that the total cases,deaths,new deaths and number of recovered cases for the selected country will appear.
+    - iv. Click anywhere on the map, verify that the country name will be shown
 
 
 
@@ -137,7 +137,12 @@ coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-t
 
 2. https://elements.envato.com/coronavirus-live-statistics-dashboard-template-FQFQB34
 
+<<<<<<< HEAD
 
+=======
+# Pitch Link 
+https://drive.google.com/file/d/1lxicB-gfN57c346pOVjTIYz1-RYKLnEI/view?usp=sharing
+>>>>>>> ab78e078b1a1a2c57c3280ce281870b1fa194765
 
 # GitHub Page Link
 https://arktorch3rd.github.io/Assignment-2/index.html
