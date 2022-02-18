@@ -6,7 +6,7 @@ Educating public on covid-19
 This website is a covid-19 website which will educate the public more on covid-19. The public will get to know much more about virus after browsing through the website
 
 # Design Process
-Since, this is a covid-19 website,We make use of a white theme to show that it is health-related website.The fonts used are also formal to show the website formality.There are also many animations and pictures being used to maximize the interactivity of the user with the website.This website is targeted at general public(regardless of their ages) who is keen to learn more about covid-19 virus or to know the latest statistics of covid-19 cases. The goal of the website is to educate the general public on covid-19.Educating the public on the symptoms when they are infected with covid-19, how to prevent themselves from getting covid-19.At the same time, also allowing them to know about the different vaccines available,the latest world-wide covid-19 news and the statistics of covid-19(eg. number of cases globally etc).
+Since, this is a covid-19 website,We make use of a white theme to show that it is health-related website.Formal fonts were use to show the website formality.There are also many animations and pictures being included to maximize the interactivity of the user with the website.This website is targeted at general public(regardless of their ages) who is keen to learn more about covid-19 virus or to know the latest statistics of covid-19 cases. The goal of the website is to educate the general public on covid-19.Educating the public on the symptoms when they are infected with covid-19, how to prevent themselves from getting covid-19.At the same time, also allowing them to know about the different vaccines available,the latest world-wide covid-19 news and the statistics of covid-19(eg. number of cases globally etc).
 
 # Features
 
@@ -17,11 +17,11 @@ Since, this is a covid-19 website,We make use of a white theme to show that it i
 
 2. Information on covid-19
 
-    Allow the user to know a little bit more about what exactly is covid-19.
+    Allow the user to know a little bit more about what exactly is covid-19 and how covid-19 is spread. 
 
 3. Symptoms of Covid-19
 
-    Educate the user on the possible symptoms when they are infected with covid-19.
+    The "Symptoms" section lists many examples of common symptoms which patients with covid-19 experienced. From here users can better look after themselves as they would be able to seek medical attention faster after knowing the symptoms. 
 
 4. Prevention of Covid-19
 
@@ -29,17 +29,22 @@ Since, this is a covid-19 website,We make use of a white theme to show that it i
 
 5. Information about different vaccines
 
-    Educate the user on the different vaccines available and if it is suitable for them. 
+     The vaccination section lists the different vaccines that users can take. we also provided more information on the different vaccines, such as background information of company and the minimum age required to take the vaccine.
 
 6. faq
+    
+    Users get to see the answers to some commonly asked questions. 
 
-    Answers to some of the commonly asked questions by the general public.
 
 7. Blog section which consists of the news on covid-19
 
     Allowing the user to know the latest worldwide covid-19 news 
 
-8. Survey
+8. Contact Section
+
+    The contact section allow users to provide feedbacks or questions that they have for us.
+
+9. Survey
 
     To check on the user understanding and allows us to make improvements on our website
 
@@ -95,8 +100,8 @@ Since, this is a covid-19 website,We make use of a white theme to show that it i
 
     i. Go to the Map page
     ii. Try to select the country that you want using the selector. You may also type in the country name you want to know the statistics of
-    iii. Verify that the total cases,deaths,new deaths and numbre of recovered cases for the selected country will appear.
-    iv. Click anywhere on the map, verify that the countryname will be shown
+    iii. Verify that the total cases,deaths,new deaths and number of recovered cases for the selected country will appear.
+    iv. Click anywhere on the map, verify that the country name will be shown
 
 
 
