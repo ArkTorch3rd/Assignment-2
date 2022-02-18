@@ -13,7 +13,7 @@ Since, this is a covid-19 website,We make use of a white theme to show that it i
 # Existing Features
 1. A map and dashboard showing the number of covid-19 cases in different countries (API)
 
-Allow the user to know the number of covid-19 cases, number of deaths caused by covid-19,number of recovered cases globally or in respective countries by interacting with the map or dashboard.
+-Allow the user to know the number of covid-19 cases, number of deaths caused by covid-19,number of recovered cases globally or in respective countries by interacting with the map or dashboard.
 
 2. Information on covid-19
 
@@ -25,11 +25,11 @@ Educate the user on the possible symptoms when they are infected with covid-19.
 
 4. Prevention of Covid-19
 
-Educate the user on the ways to prevent themselves from getting covid-19.
+-Educate the user on the ways to prevent themselves from getting covid-19.
 
 5. Information about different vaccines
 
-Educate the user on the different vaccines available and if it is suitable for them. 
+-Educate the user on the different vaccines available and if it is suitable for them. 
 
 6. faq
 
