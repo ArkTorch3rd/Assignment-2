@@ -13,35 +13,35 @@ Since, this is a covid-19 website,We make use of a white theme to show that it i
 # Existing Features
 1. A map and dashboard showing the number of covid-19 cases in different countries (API)
 
-Allow the user to know the number of covid-19 cases, number of deaths caused by covid-19,number of recovered cases globally or in respective countries by interacting with the map or dashboard.
+    Allow the user to know the number of covid-19 cases, number of deaths caused by covid-19,number of recovered cases globally or in respective countries by interacting with the map or dashboard.
 
 2. Information on covid-19
 
-Allow the user to know a little bit more about what exactly is covid-19.
+    Allow the user to know a little bit more about what exactly is covid-19.
 
 3. Symptoms of Covid-19
 
-Educate the user on the possible symptoms when they are infected with covid-19.
+    Educate the user on the possible symptoms when they are infected with covid-19.
 
 4. Prevention of Covid-19
 
-Educate the user on the ways to prevent themselves from getting covid-19.
+    Educate the user on the ways to prevent themselves from getting covid-19.
 
 5. Information about different vaccines
 
-Educate the user on the different vaccines available and if it is suitable for them. 
+    Educate the user on the different vaccines available and if it is suitable for them. 
 
 6. faq
 
-Answers to some of the commonly asked questions by the general public.
+    Answers to some of the commonly asked questions by the general public.
 
 7. Blog section which consists of the news on covid-19
 
-Allowing the user to know the latest worldwide covid-19 news 
+    Allowing the user to know the latest worldwide covid-19 news 
 
 8. Survey
 
-To check on the user understanding and allows us to make improvements on our website
+    To check on the user understanding and allows us to make improvements on our website
 
 # Features Left To Implement
 
@@ -61,27 +61,27 @@ To check on the user understanding and allows us to make improvements on our web
 
 1. About Page
 
-i. Go to the about page.
-ii. There will be a slider which will moves to the next slide automatically
-iii. Try to click on the arrow button and verify that it also do move to the next slide
+    i. Go to the about page.
+    ii. There will be a slider which will moves to the next slide automatically
+    iii. Try to click on the arrow button and verify that it also do move to the next slide
 
 2. Symptoms
 
-i. Go to the symptoms page
-ii. When hover through one of the images, verify that a box of text will
-subsequently appear.
+    i. Go to the symptoms page
+    ii. When hover through one of the images, verify that a box of text will
+    subsequently appear.
 
 3. Vaccines 
 
-i. Go to the vaccines page.
-ii. There will be a slider which will move to the next one automatically
-iii. Try to click on the arrow button and verify that it also do move to the next box
+    i. Go to the vaccines page.
+    ii. There will be a slider which will move to the next one automatically
+    iii. Try to click on the arrow button and verify that it also do move to the next box
 
 4. FAQ 
 
-i. Go to the FAQ page.
-ii. When pressed on the box that contains the question, verify that the answer to the query will pop out.
-iii. Also verify that the slider will move to the next FAQ automatically
+    i. Go to the FAQ page.
+    ii. When pressed on the box that contains the question, verify that the answer to the query will pop out.
+    iii. Also verify that the slider will move to the next FAQ automatically
 
 
 5. DashBoard
