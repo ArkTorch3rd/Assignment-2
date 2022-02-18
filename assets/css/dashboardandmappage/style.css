@@ -1396,4 +1396,8 @@ nav li {
 .last-update-wrap{
     margin-bottom:3%;
 }
-  
+.survey{
+    height:700px;
+    width:100%;
+    scroll-behavior:'auto' 
+}
