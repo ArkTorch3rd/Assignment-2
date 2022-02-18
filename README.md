@@ -109,12 +109,12 @@ iv. Click anywhere on the map, verify that the countryname will be shown
 
 # Reference Made (Content)
 1. https://www.who.int/health-topics/coronavirus#tab=tab_1
-2. https://www.homage.sg/services/non-emergency-ambulance/
+2. https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures
 3. https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html
 4. https://www.verywellhealth.com/common-covid-19-questions-4800068
 5. https://www.bbc.com/future/article/20200323-coronavirus-will-hot-weather-kill-covid-19
 coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-the-seattle-washington-state-and-the-world/
-6. https://www.foxnews.com/health/worlds-first-human-infection-study-for-covid-19
+6. https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures
 7. https://www.who.int
 8. https://www.cdc.gov/coronavirus/2019-ncov/vaccines
 9. https://www.channelnewsasia.com/watch/singapore-streamline-covid-19-and-border-rules-announces-new-vtl-hong-kong-video-2502346
@@ -122,7 +122,8 @@ coronavirus-daily-news-updates-february-2-what-to-know-today-about-covid-19-in-t
 11. https://www.who.int/westernpacific/emergencies/covid-19/information/transmission-protective-measures
 
 # Media
-1. https://www.bing.com/images/search?view=detailV2&ccid=qMwy06WK&id=8D02C71D256724B395FE1E877A626A2B1B30BBB0&thid=OIP.qMwy06WKF_60d_-_UF7JxwHaE8&mediaurl=https%3a%2f%2fwww.unomaha.edu%2fnews%2f2020%2f03%2fimg%2fcovid-19-check.jpg&exph=800&expw=1200&q=COVID-19+Logo&simid=608024299675745741&FORM=IRPRST&ck=172EB2A1FFC652F407FC8BA287D489BD&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0 
+1. https://www.bing.com/images/search?view=detailV2&ccid=qMwy06WK&id=8D02C71D256724B395FE1E877A626A2B1B30BBB0&thid=OIP.qMwy06WKF_60d_-_UF7JxwHaE8&mediaurl=https%3a%2f%2fwww.unomaha.edu%2fnews%2f2020%2f03%2fimg%2fcovid-19-check.jpg&exph=800&expw=1200&q=COVID-19+Logo&simid=608024299675745741&FORM=IRPRST&ck=172EB2A1FFC652F407FC8BA287D489BD&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0
+2. https://www.youtube.com/watch?time_continue=2&v=D9tTi-CDjDU&feature=emb_title
 
 
 # Website Template used
